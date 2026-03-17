@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fly-data-490503",
+  "private_key_id": "9b7e500b0ce147b48fd16ca0f7e7da465abe6652",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCqBGckmtSPk0/0\nWpIczpMcuy+0DWTD0e/3qC1MscPcqsjjhNKlNIclUkZsV9q3FpiPcGv0qevQzJ9E\nKSKvkCZ3N7fpWWGsDM4tEUBHZ+EbqZR41g0ZjKgLQw4Oz5SFubHyQp4MnMfZwd7v\nAPGzE4X6h/LSU3njxtdU0o5zGgmRwjVO12Efe9Nn8jaAki1fBxCsovwi74cIrAbX\nEcVH4SnaFosetGKD5CJtjZCXXLHZiKFMHfiDUI6BtZtObl/9u39horJ6mpo1vTTb\nXEJLKtGDonT9AoPEvKIJqplJEwIvVjTEEEaxyMgxsjc3w2LQwt8P49RodRH8P/kA\nhd6lBQUtAgMBAAECggEAGyY7gkY8jfYsMmJe1WgiEy3LtFOJ38Cf3UsR0Ml3nr6h\noxNhaoLfgeoy12JAHt87hXb3sPOMIKT3BIoSa+P3qy9OmF4ZkWvfZfr3P2/V1qEB\n1eSjOuKR2G/gyCSwcZpG/DSpyxcjeCEpWb6A2jkn5UCIWhB9H7kaRwVIkhYk/mK4\ntyrc6zwCBwySZ6uyKZ+dMLJs9vhPmpNrGnJhoOUGLWPHK0QCSWGtchht0MOnr4KY\n296kV5IFqKPU1XM53wez92HR0h6VHu4XN8x+nfuRMB1w1KRVvLCFFlk2F6kVwYPi\n8l35yUFmswT66Cu1x/Rlhm9r0Xc/VxXqCJx3y7b8UQKBgQDhzUduPF5igcuWiptM\nKHiTbyZH4sWwLCp2jU8ngXMTJqMKCySIRefS2vzLO5LNmb+rIVobBxNlc8gf2YNy\nevEWLPMtcjSIxkzQ5n60n5m8wgv5JBYDYs/e6F2f03zJEobodNGdNNnoL42dfzIF\nQfsD4I7r2V4RGInE+To7qRDg3wKBgQDAwT0BUTPh3rdWX8Arziz/XnA0TExARQfN\nEhTnV08YC14glxaVECD/3ZF1Qg0zAPGwgUYgdM9Ym6vbL1CCaUeEM4hzB80/+TGu\n7RwmHsbicCXGD+r5wLdDAtBnlLjkNziJkmC1gmZY3x8jn9BUwn0IScrbS5kvcK2p\nxjs4lmsfcwKBgHKZ6z0JqqW4VonLQ1J93+SELxug/tCROeP9iET2sF7x5yG70gjP\n4f7kYhUL4VA0TlEelkrNZozBHLr9fHdn6mBk4+8W3Y7lhisoMPqfXjmtCsKiDAIf\n7nyl1o69mcG7g3kLgS+WmVn8eJWM7ug4OpwXJrKRGer3V0T/cQzCm+xlAoGARk72\nEqHs+8mCNFZOwWu+DBQFd34RHixP0SR0TYISTqHu3pJd4Vd1wf6uzQefyufgQNKW\nosYYz6hQwm16v2bpeDZX4iWJX3lk/vpsFxeI0hW4IYuy2RDLh/zhybZ8znm5/KxQ\n7EQ5UtdoA1WK5y/d7YUFIoJryNsf7VpqRZTQVDMCgYEAhWA84NeKlO7yDmK4eFZv\nBITjppnBmCUackhGDrnkWs24agen6hfcgY5YOlNcAPWK0OLhE5vCYfrwFImyV3KE\n6CJ4Zs6eWzSEfnw2a0CiBukJSPj+7bL//G6bObcohjbg91X/nHRr7JjwXnlTyE3c\nrLj0+I0GUAD3sptqWWPEhuo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "flyvisa-storage-admin@fly-data-490503.iam.gserviceaccount.com",
+  "client_id": "111367689155247280559",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/flyvisa-storage-admin%40fly-data-490503.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
