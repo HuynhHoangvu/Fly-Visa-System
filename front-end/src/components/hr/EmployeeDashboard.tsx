@@ -55,6 +55,9 @@ interface EmployeeDashboardProps {
   currentUser: AuthUser | null;
 }
 
+
+
+
 const EmployeeDashboard: React.FC<EmployeeDashboardProps> = ({
   currentUser,
 }) => {
@@ -87,16 +90,14 @@ const EmployeeDashboard: React.FC<EmployeeDashboardProps> = ({
     new Date().toISOString().slice(0, 7),
   );
 
-  const isAdmin =
-    currentUser?.role.toLowerCase().includes("admin") ||
-    currentUser?.role.toLowerCase().includes("giám đốc");
-  const isManager =
-    currentUser?.role.toLowerCase().includes("quản lý") ||
-    currentUser?.role.toLowerCase().includes("trưởng phòng");
-  const isBoss =
-    currentUser?.role.toLowerCase().includes("giám đốc") ||
-    currentUser?.id === "admin" ||
-    currentUser?.role.toLowerCase().includes("phó giám đốc");
+  const isManager = hasPermission(currentUser?.role, PERMISSIONS.HR_VIEW);
+  const isDirector = currentUser?.role?.toLowerCase().includes("giám đốc") ||
+                     currentUser?.role?.toLowerCase().includes("admin");
+  const isHeadOfDepartment = currentUser?.role?.toLowerCase().includes("trưởng phòng");
+  const isAdmin = isDirector;
+
+  const canAddPersonnel = hasPermission(currentUser?.role, PERMISSIONS.HR_MANAGE);
+  const canDeletePersonnel = isDirector;
 
   /** Giám đốc / Phó / admin + Trưởng phòng / Quản lý — chấm công thay người khác & xem cả danh sách. */
   const canManageOthersAttendance = canManageOthersAttendanceByRole(currentUser);

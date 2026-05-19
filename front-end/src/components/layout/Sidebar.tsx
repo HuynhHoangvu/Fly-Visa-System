@@ -170,7 +170,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         setActiveWorkspaceId(remaining[0].id);
       }
     } catch (e) {
-      alert("Lỗi khi xoá workspace");
+      alert("Lỗi khi xoá workspace: " + e);
     } finally { setWsSaving(false); }
   };
 
